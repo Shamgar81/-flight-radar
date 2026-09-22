@@ -11,9 +11,9 @@ CHAT_ID = os.environ["TELEGRAM_CHAT_ID"]
 # Each route: label, from, to, list of dates (flexibility), threshold in USD
 ROUTES = [
     {"label": "TLV -> New York", "from": "TLV", "to": "NYC",
-     "dates": ["2027-04-11", "2027-04-12"], "threshold": 450},
+     "dates": ["2027-04-11", "2027-04-12"], "threshold": 9999},
     {"label": "Toronto -> TLV",  "from": "YYZ", "to": "TLV",
-     "dates": ["2027-05-02", "2027-05-03"], "threshold": 450},
+     "dates": ["2027-05-02", "2027-05-03"], "threshold": 9999},
 ]
 
 MEMORY_FILE = "last_prices.json"
