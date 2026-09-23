@@ -1,0 +1,22 @@
+[
+  {
+    "label": "TLV -> New York",
+    "from": "TLV",
+    "to": "NYC",
+    "dates": [
+      "2027-04-11",
+      "2027-04-12"
+    ],
+    "threshold": 450
+  },
+  {
+    "label": "Toronto -> TLV",
+    "from": "YYZ",
+    "to": "TLV",
+    "dates": [
+      "2027-05-02",
+      "2027-05-03"
+    ],
+    "threshold": 450
+  }
+]
